@@ -1,0 +1,285 @@
+<template>
+
+<div>
+    <!-- Header -->
+<header id="header">
+  <div class="intro">
+    <div class="overlay">
+      <div class="container">
+        <div class="row">
+          <div class="intro-text">
+            <h1>Mojito</h1>
+            <p>当你感到疲惫的时候，来mojito坐一坐吧！</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+  <!-- Features Section -->
+<div id="features" class="text-center">
+  <div class="container">
+    <div class="section-title">
+      <h2>特色菜</h2>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 col-sm-4">
+        <div class="features-item">
+          <h3>菠萝咕咾肉</h3>
+          <img src="img/specials/1.jpg" class="img-responsive" alt="">
+          <p>色泽美观大方、果香浓郁诱人、口感外焦里嫩、口味酸甜适中、食之味美不腻。</p><p>是你喜欢的味道吗？</p>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-4">
+        <div class="features-item">
+          <h3>红酒烩牛肉</h3>
+          <img src="img/specials/2.jpg" class="img-responsive" alt="">
+          <p>浓浓的法式风味，不知道《Julie and Julia》你看过没</p><p>你会爱上它的*~*</p>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-4">
+        <div class="features-item">
+          <h3>拔丝地瓜</h3>
+          <img src="img/specials/3.jpg" class="img-responsive" alt="">
+          <p>童年的味道。糖丝的香脆和地瓜的软糯结合起来，那美味难怪让人难以忘怀。</p><p>你的童年有这样的味道吗</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- About Section -->
+<div id="about">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-xs-12 col-md-6 about-img"> </div>
+      <div class="col-xs-12 col-md-3 col-md-offset-1">
+        <div class="about-text">
+          <div class="section-title">
+            <h2>Our Story</h2>
+          </div>
+          <p>我们的故事，从哪里说起好呢</p><p>午后的阳光、湖边的微风、还是漫天繁星</p><p>秦淮楼道的小街上</p><p>我们会一直在这里等你</p><p>来一场奇妙的邂逅</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Restaurant Menu Section -->
+<div id="restaurant-menu">
+  <div class="container">
+    <div class="section-title text-center">
+      <h2>菜单</h2>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 col-sm-6">
+        <div class="menu-section">
+          <h2 class="menu-section-title">元气早餐*_*</h2>
+          <div class="menu-item">
+            <div class="menu-item-name">吐司火腿鲜虾披萨</div>
+            <div class="menu-item-price"> ￥25 </div>
+            <div class="menu-item-description"> 撒上一层马苏里拉奶酪碎，撕拉一下~啊~美味 </div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-name">香蕉松饼</div>
+            <div class="menu-item-price"> ￥12</div>
+            <div class="menu-item-description"> 香蕉的香甜 、榴莲的浓郁、搭配松饼的松软~绝配，不喜欢榴莲也要尝试一下哦~</div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-name">炸牛奶馒头</div>
+            <div class="menu-item-price"> ￥8 </div>
+            <div class="menu-item-description"> 酥脆的馒头配上炼乳的口感，你能想象出来吗？</div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-name">玉米汁</div>
+            <div class="menu-item-price"> ￥2</div>
+            <div class="menu-item-description"> 元气早餐再来一杯玉米汁，还有什么是比这更幸福的事情了呢！ </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6">
+        <div class="menu-section">
+          <h2 class="menu-section-title">主菜</h2>
+          <div class="menu-item">
+            <div class="menu-item-name">宫保鸡丁</div>
+            <div class="menu-item-price"> ￥60</div>
+            <div class="menu-item-description">红而不辣、辣而不猛、香辣味浓、肉质滑脆。入口鲜辣，鸡肉的鲜嫩配合花生的香脆。</div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-name">油焖大虾</div>
+            <div class="menu-item-price"> ￥55 </div>
+            <div class="menu-item-description"> 渤海湾的大对虾，鲁菜特有的油焖技法，鲜香甜咸四种味道相辅相成，回味无穷。 </div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-name">德州扒鸡</div>
+            <div class="menu-item-price"> ￥45</div>
+            <div class="menu-item-description">皮光亮，色泽红润，肉质肥嫩，手提鸡骨一抖，骨肉随即分离，是德州传统风味。 </div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-name">糖醋鲤鱼</div>
+            <div class="menu-item-price"> ￥45 </div>
+            <div class="menu-item-description"> 山东济南传统名菜.色泽金黄，鱼肉外焦内嫩，酸甜可口，香鲜味美。</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 col-sm-6">
+        <div class="menu-section">
+          <h2 class="menu-section-title">小炒/汤羹</h2>
+          <div class="menu-item">
+            <div class="menu-item-name">酸辣土豆丝</div>
+            <div class="menu-item-price"> ￥10 </div>
+            <div class="menu-item-description"> 餐桌上最常见的家常菜，是你熟悉的味道就对了！ </div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-name">木须肉</div>
+            <div class="menu-item-price"> ￥12</div>
+            <div class="menu-item-description"> 木须肉原名木樨肉，是一道常见的汉族传统佳肴，你猜！他还有什么名字？ </div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-name">疙瘩汤</div>
+            <div class="menu-item-price"> ￥15 </div>
+            <div class="menu-item-description"> 暖暖的来一份开始美好的一天 酸酸甜甜是开心的味道</div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-name">莲藕排骨汤</div>
+            <div class="menu-item-price"> ￥18 </div>
+            <div class="menu-item-description"> 健胃开脾 有了足够的能量才能抵御生活中的不开心呀~ </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6">
+        <div class="menu-section">
+          <h2 class="menu-section-title">甜品&_& </h2>
+          <div class="menu-item">
+            <div class="menu-item-name">云朵舒芙蕾</div>
+            <div class="menu-item-price"> ￥12 </div>
+            <div class="menu-item-description"> 入口即化的云朵舒芙蕾~~口感独特，像棉花糖一样，绵软细腻</div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-name">四份小甜点送你</div>
+            <div class="menu-item-price"> ￥16 </div>
+            <div class="menu-item-description">四种甜品搭配 别怪我哈，是我的记性不好啊，才把你们都忘记吃了~</div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-name">红枣核桃软欧</div>
+            <div class="menu-item-price"> ￥18 </div>
+            <div class="menu-item-description"> 生活是一种态度！减什么肥？ 有红枣核桃软就够了#_#</div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-name">抹茶慕斯蛋糕</div>
+            <div class="menu-item-price"> ￥18 </div>
+            <div class="menu-item-description"> 夏天来款一抹绿，清凉一夏，细细的品味，唇齿留香！你值得拥有~ </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Gallery Section -->
+<div id="gallery">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-xs-6 col-md-3">
+        <div class="gallery-item"> <img src="img/gallery/01.jpg" class="img-responsive" alt=""></div>
+      </div>
+      <div class="col-xs-6 col-md-3">
+        <div class="gallery-item"> <img src="img/gallery/02.jpg" class="img-responsive" alt=""></div>
+      </div>
+      <div class="col-xs-6 col-md-3">
+        <div class="gallery-item"> <img src="img/gallery/03.jpg" class="img-responsive" alt=""></div>
+      </div>
+      <div class="col-xs-6 col-md-3">
+        <div class="gallery-item"> <img src="img/gallery/04.jpg" class="img-responsive" alt=""></div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Team Section -->
+<div id="team">
+  <div class="container">
+    <div id="row">
+      <div class="col-md-6">
+        <div class="col-md-10 col-md-offset-1">
+          <div class="section-title">
+            <h2>三大厨师</h2>
+          </div>
+          <p>张媛  20岁   山东人 带着梦想的甜品师 从事甜点行业10年 梦想做出像"城堡上的蓝宝石"一样的杰作~~</p>
+          <br><br><br><br><br><br><br><br>
+          <p>张玉娟  21岁  山东人 心灵手巧的主厨 从事餐饮行业10年 带你尝出不一般的山东味道~~</p>
+          <br><br><br><br><br><br><br><br>
+           <p>刘琳萍  20岁  南方人 典型的南方小厨 从事餐饮行业6年 带你体会江南小镇的的舌尖味道~~</p>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="team-img"><img src="img/chef.jpg" alt="..."></div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Contact Section -->
+<div id="contact" class="text-center">
+  <div class="container text-center">
+    <div class="col-md-4">
+      <h3>提前预定</h3>
+      <div class="contact-item">
+        <p>请联系：</p>
+        <p>123-123-123</p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <h3>餐厅地址</h3>
+      <div class="contact-item">
+        <p>山东日照东港区</p>
+        <p>秦淮楼道42431大街</p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <h3>营业时间</h3>
+      <div class="contact-item">
+        <p>周一-周四： 10:00 AM - 11:00 PM</p>
+        <p>周五-周天： 11:00 AM - 02:00 AM</p>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="section-title text-center">
+      <h3>等待你的反馈</h3>
+    </div>
+    <div class="col-md-8 col-md-offset-2">
+      <form name="sentMessage" id="contactForm" novalidate>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form-group">
+              <input type="text" id="name" class="form-control" placeholder="姓名" required="required">
+              <p class="help-block text-danger"></p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <input type="email" id="email" class="form-control" placeholder="消息~" required="required">
+              <p class="help-block text-danger"></p>
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <textarea name="message" id="message" class="form-control" rows="4" placeholder="Message" required></textarea>
+          <p class="help-block text-danger"></p>
+        </div>
+        <div id="success"></div>
+        <button type="submit" class="btn btn-custom btn-lg">点击发送</button>
+      </form>
+    </div>
+  </div>
+</div>    
+</div>
+
+</template>
+
+<script>
+export default {
+    name:'appHome'
+};
+</script>
+
+<style>
+</style>
