@@ -1,2 +1,2 @@
 # Mojito_Restaurant
-a websit about restaurant by using Vue
+a websit about restaurant
