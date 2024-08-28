@@ -12,7 +12,7 @@
     <el-menu-item index="3">{{ $t('homePage.about') }}</el-menu-item>
     <el-menu-item index="4">{{ $t('homePage.chefs') }}</el-menu-item>
     <el-menu-item index="5">{{ $t('homePage.contact') }}</el-menu-item>
-    <el-menu-item index="6"><a href="https://www.ele.me" target="_blank">{{ $t('homePage.login') }}</a></el-menu-item>
+    <el-menu-item index="6"><router-link to="./login">{{ $t('homePage.login') }}</router-link></el-menu-item>
   </el-menu>
 </template>
 <script>
@@ -33,6 +33,7 @@ export default {
 
 <style scoped>
     .el-menu-demo {
+      display: flex;
       width:100vw;
       margin: 0;
       top: 0;

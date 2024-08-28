@@ -12,6 +12,15 @@
         "desert": "甜品 &_&",
         "title": "Mojito Restaurant",
         "description": "当你感到疲惫的时候，来mojito坐一坐吧！"
+    },
+    "species": {
+        "title" : "特色菜",
+        "pineapple": "菠萝咕咾肉",
+        "pineappleDescription": "色泽美观大方、果香浓郁诱人、口感外焦里嫩、口味酸甜适中、食之味美不腻。是你喜欢的味道吗？",
+        "wineBeef": "红酒烩牛肉",
+        "wineBeefDescription": "浓浓的法式风味，不知道《Julie and Julia》你看过没? 你会爱上它的*~*",
+        "basiPotato": "拔丝地瓜",
+        "basiPotatoDesc": "童年的味道。糖丝的香脆和地瓜的软糯结合起来，那美味难怪让人难以忘怀。你的童年有这样的味道吗"
     }
     
 }
