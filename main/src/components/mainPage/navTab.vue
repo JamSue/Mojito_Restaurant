@@ -1,6 +1,6 @@
 <template>
   <el-menu :default-active="activeIndex2" class="el-menu-demo" mode="horizontal" @select="handleSelect"
-    background-color="#BFBFBF" text-color="#fff" active-text-color="#FAEAD3">
+    background-color="#ECECEA" text-color="#000" active-text-color="#965454">
     <el-menu-item index="1">{{ $t('homePage.species') }}</el-menu-item>
     <el-submenu index="2">
       <template slot="title">{{ $t('homePage.menu') }}</template>

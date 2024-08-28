@@ -9,7 +9,9 @@
         "breakfast": "元气早餐",
         "mainDish": "主菜 ^_^",
         "soup": "小炒/汤羹",
-        "desert": "甜品 &_&"
+        "desert": "甜品 &_&",
+        "title": "Mojito Restaurant",
+        "description": "当你感到疲惫的时候，来mojito坐一坐吧！"
     }
     
 }
