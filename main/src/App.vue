@@ -1,17 +1,26 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <homePage />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/home.vue'
+import homePage from './components/homePage.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    homePage
+  },
+
+  mounted() {
+    let lang = localStorage.getItem('lang')
+    if (lang == 'en_US') {
+      this.$i18n.locale = "en"
+    } else {
+      this.$i18n.locale = "zh"
+      this.locale = null
+    }
   }
 }
 </script>
